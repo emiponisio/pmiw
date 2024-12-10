@@ -1,0 +1,27 @@
+body {
+    background-image: url('imagenes/backgroundimg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    font-family: 'Arial', sans-serif; 
+    color: #ffffff;  
+  }
+  
+ 
+  
+  nav {
+    background-color: rgba(174, 174, 174, 0.5); 
+  }
+
+  
+  section {
+    background-color: rgba(169, 169, 169, 0.3); /* Gris con 30% de opacidad */
+    padding-left: 10px; /* Corrected the syntax */
+    padding-right: 10px; /* Corrected the syntax */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+}
+
+h1 {text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);}
+h2 {text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+
+
