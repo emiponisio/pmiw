@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css">
+    <link rel="stylesheet" href="syle.css">
+    <link rel="stylesheet" href="tpfinalparte3.js">
+    <title>Buscando a Nemo</title>
+    
+ 
+  </head>
+  <body>
+    <header class="border text-center">
+      <h1>Buscando a Nemo</h1>
+      <nav class="row flex-spaces">
+        <a href="#tematica" class="paper-btn btn-primary">Temática</a>
+        <a href="#proceso" class="paper-btn btn-secondary">Proceso</a>
+        <a href="#juego" class="paper-btn btn-primary">Videojuego</a>
+        <a href="#grafica" class="paper-btn btn-secondary">Aventura Gráfica</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- Temática -->
+      <section id="tematica" class="section tematica">
+        <div class="row flex-center">
+          <div class="sm-6 col">
+            <h2>Temática</h2>
+            <p>
+              El juego se basa en una narrativa de aventura donde el jugador guía
+              a Marlin, un pez payaso, en su búsqueda para encontrar a su hijo
+              Nemo. La historia toma lugar en un mundo submarino lleno de
+              personajes entrañables como Dory, y enfrenta al jugador con varios
+              obstáculos y decisiones.
+            </p>
+          </div>
+          <div class="sm-6 col">
+            <img
+              src="imagenes/Aventuragrafica.png"
+              alt="Imagen temática"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Proceso -->
+      <section id="proceso" class="section proceso">
+        <div class="row flex-center">
+          <div class="sm-6 col">
+            <img
+              src="imagenes/proceso.png"
+              alt="Imagen proceso"
+            />
+          </div>
+          <div class="sm-6 col">
+            <h2>Proceso</h2>
+            <ul>
+              <li>
+                <strong>Preload de Imágenes y Sonidos:</strong> Imágenes y sonidos
+                precargados para asegurar fluidez.
+              </li>
+              <li>
+                <strong>Estructura de la Historia:</strong> Pantallas que cambian
+                según las decisiones tomadas.
+              </li>
+              <li>
+                <strong>Interacción con el Usuario:</strong> Botones para elegir
+                opciones que afectan la narrativa.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Videojuego -->
+       
+     <section id="juego" class="section juego">
+        <h2>¡Ayuda a Marlin a esquivar medusas y atrapar a Dory!</h2>
+        <p>
+          En este juego interactivo, Marlin debe navegar por el océano evitando
+          medusas. A medida que avanza, su objetivo es atrapar a Dory para sumar
+          puntos. ¡Pon a prueba tus reflejos y disfruta de esta emocionante
+          aventura acuática!
+        </p>
+
+        <div class="row flex-spaces child-borders">
+            <label class="paper-btn margin" for="modal-1">Jugar</label>
+          </div>
+          <input class="modal-state" id="modal-1" type="checkbox">
+          <div class="modal">
+            <label class="modal-bg" for="modal-1"></label>
+            <div class="modal-body">
+              <label class="btn-close" for="modal-1">X</label>
+              <iframe src="demo_p5.js/tpfinalparte2/index.html" frameborder="0" width="640" height="480" overflow: hidden;></iframe>
+              
+            </div>
+          </div>
+
+
+      </section>
+
+      <!-- Aventura Gráfica -->
+      <section id="grafica" class="section grafica">
+        <h2>Aventura Gráfica</h2>
+        <p>
+          Explora la narrativa de la película "Buscando a Nemo" y toma decisiones
+          que afecten el desarrollo de la historia. ¡Vive una experiencia
+          interactiva única!
+        </p>
+        <iframe 
+          src="demo_p5.js/parte1/"width="640" height="480"
+          title="Aventura Gráfica de Nemo" 
+        ></iframe>
+      </section>
+    </main>
+  </body>
+</html>
